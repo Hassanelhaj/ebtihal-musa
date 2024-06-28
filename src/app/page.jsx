@@ -8,6 +8,7 @@ import Projects from "../../Components/Projects/Projects";
 import Footer from "../../Components/footer/Footer";
 import NavBar from "../../Components/utils/NavBar";
 import SlickCard from "../../Components/utils/SlickCard";
+import Platforms from "../../Components/Projects/platforms/Platforms";
 
 const Home = () => {
   const [mounted, setMounted] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
       <Services />
       
       <Projects />
+      <Platforms/>
       <div id="contact">
         <Footer />
       </div>

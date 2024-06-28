@@ -1,16 +1,6 @@
 import { TfiWrite } from "react-icons/tfi";
-import Image from "next/image";
-
-import { GiEarthAmerica, GiPaper, GiTravelDress } from "react-icons/gi";
-import { AiOutlineAppstoreAdd } from "react-icons/ai";
-
-
-import { RiTravestiFill } from "react-icons/ri";
-import { FaDochub, FaPassport, FaPlane } from "react-icons/fa";
-import { BiDockBottom, BiPaperPlane } from "react-icons/bi";
-import { FiPaperclip } from "react-icons/fi";
-import { SiPaperspace } from "react-icons/si";
-
+import swead from './public/imgs/platforms/sweed.jpg'
+import nutra from './public/imgs/platforms/care.jpg'
 
 
 export const servicesList = [
@@ -21,6 +11,34 @@ export const servicesList = [
     description:
       "Profishinal Work With Social Media Manegement Services",
     logo: <TfiWrite />,
+  },
+  // {
+  //   id: 2,
+  //   title: "Travel & Tourism Service ",
+  //   description:
+  //     "Flights Booking With Best Prices & Visa Issuance Service",
+  //   logo: <FaPlane />,
+  // },
+  // {
+  //   id: 3,
+  //   title: "Authentication of Papers ",
+  //   description:
+  //     "Authenticat All Official Papers and Certificates",
+  //   logo: <FaPassport />,
+  // },
+];
+
+export const platforms = [
+
+  {
+    id: 1,
+    title: "سواعد الهندسية ",
+    img: swead,
+  },
+  {
+    id: 2,
+    title: "Nutra_Care",
+    img: nutra,
   },
   // {
   //   id: 2,

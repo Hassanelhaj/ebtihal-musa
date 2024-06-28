@@ -20,7 +20,7 @@ const Card = ({ data }) => {
       </section>
       <section
         className=" bg-[#ffffffbd] w-full  top-0 opacity-0 transition duration-500
-      group-hover:opacity-100 text-gray-500 h-[116px]
+      group-hover:opacity-100 text-gray-500 h-[260px]
       absolute "
       >
         <div className="flex flex-col justify-center items-center gap-2 mt-3">
